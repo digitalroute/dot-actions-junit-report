@@ -94,4 +94,4 @@ inputs:
     required: false
 runs:
   using: 'node16'
-  main: 'dist/index.js'
+  main: '--max-old-space-size=8192 dist/index.js'
